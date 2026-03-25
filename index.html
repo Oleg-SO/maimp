@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>МашиноИмпульс | Автоэлектрик в Челябинске и области</title>
+    <meta name="description" content="✅ Выездной ремонт электрики автомобилей любой сложности в Челябинске. ✅ Быстрая диагностика, ремонт проводки, запуск двигателя, замена предохранителей. Выезд по городу и области. Звоните!">
+    <meta name="keywords" content="автоэлектрик челябинск, ремонт электрики автомобиля челябинск, выездной автоэлектрик челябинск, диагностика автоэлектрики, ремонт проводки, запуск двигателя челябинск, отключение сигнализации">
+    <meta property="og:title" content="МашиноИмпульс | Автоэлектрик в Челябинске">
+    <meta property="og:description" content="Выездной ремонт электрики автомобилей любой сложности в Челябинске и области. Быстро, качественно, с гарантией.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://maimp.ru">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔌</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="logo">
+                <img src="img/logo.png" alt="МашиноИмпульс Логотип">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#services" class="nav__link">Услуги</a></li>
+                    <li><a href="#how-we-work" class="nav__link">Как мы работаем</a></li>
+                    <li><a href="#gallery" class="nav__link">Фотогалерея</a></li>
+                    <li><a href="#reasons" class="nav__link">Почему мы?</a></li>
+                    <li><a href="#reviews" class="nav__link">Отзывы</a></li>
+                    <li><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <a href="tel:+79511192171" class="header__phone"><i class="fas fa-phone-alt"></i> +7 (951) 119-21-71</a>
+                <button class="btn btn--primary modal-trigger" data-modal="callbackModal">Заказать звонок</button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__bg">
+                <img src="img/electro-1.jpg" alt="Автоэлектрик ремонтирует автомобиль">
+            </div>
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Автоэлектрик на выезд <span>ремонт авто любой сложности</span></h1>
+                    <p class="hero__text">Решаем быстро проблемы с электрикой автомобилей в Челябинске и области. Диагностика, ремонт, запуск.</p>
+                    <div class="hero__buttons">
+                        <button class="btn btn--primary btn--large modal-trigger" data-modal="callbackModal">Вызвать мастера</button>
+                        <a href="https://wa.me/79511192171" target="_blank" class="btn btn--whatsapp btn--large"><i class="fab fa-whatsapp"></i> Написать в WhatsApp</a>
+                    </div>
+                    <div class="hero__info">
+                        <span>Работаем по Челябинску и области</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Челябинск</span>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="img/electro-2.png" alt="Автоэлектрик за работой">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Что мы предлагаем</h2>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-car-battery"></i></div>
+                        <h3>Запуск автомобиля</h3>
+                        <p>Быстрый запуск двигателя при разряженном аккумуляторе, неисправностях стартера или иммобилайзера.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-microchip"></i></div>
+                        <h3>Ремонт проводки</h3>
+                        <p>Поиск и устранение коротких замыканий, обрывов, восстановление целостности электропроводки.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-lock"></i></div>
+                        <h3>Отключение сигнализации</h3>
+                        <p>Аварийное отключение штатной или дополнительной сигнализации, сброс ошибок.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-tools"></i></div>
+                        <h3>Помощь на дороге</h3>
+                        <p>Оперативный выезд к месту поломки в Челябинске для диагностики и устранения неисправности.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-truck"></i></div>
+                        <h3>Буксировка до СТО</h3>
+                        <p>Эвакуация вашего автомобиля в случае серьезной поломки до места ремонта.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-charging-station"></i></div>
+                        <h3>Запуск двигателя</h3>
+                        <p>Запуск двигателя при разряженном аккумуляторе (прикуривание) с соблюдением всех правил безопасности.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-fuse"></i></div>
+                        <h3>Замена предохранителей</h3>
+                        <p>Диагностика и замена перегоревших предохранителей, восстановление работоспособности электроцепей.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Электронная диагностика</h3>
+                        <p>Профессиональная компьютерная диагностика всех электронных систем автомобиля.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vehicle Types Section -->
+        <section class="vehicle-types">
+            <div class="container">
+                <h2 class="section-title">Мы работаем с любым типом транспорта</h2>
+                <div class="vehicle-types__grid">
+                    <div class="vehicle-card">
+                        <img src="img/car.png" alt="Легковой автомобиль">
+                        <h3>Легковой автомобиль</h3>
+                    </div>
+                    <div class="vehicle-card">
+                        <img src="img/fura-icon.png" alt="Грузовой автомобиль">
+                        <h3>Грузовой автомобиль</h3>
+                    </div>
+                    <div class="vehicle-card">
+                        <img src="img/spe.png" alt="Специальная техника">
+                        <h3>Специальная техника</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Work Section -->
+        <section id="how-we-work" class="how-we-work">
+            <div class="container">
+                <h2 class="section-title">Быстрый и эффективный сервис</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step__number">1</div>
+                        <div class="step__content">
+                            <h3>Вызов специалиста и выявление неисправности</h3>
+                            <p>Мастер объяснит что сломалось и предложит варианты решения проблемы.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">2</div>
+                        <div class="step__content">
+                            <h3>Согласование работ</h3>
+                            <p>Мы предлагаем оптимальное решение, вы принимаете решение.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">3</div>
+                        <div class="step__content">
+                            <h3>Выбор за вами!</h3>
+                            <p>Мастер устраняет поломку на месте или уезжает (в зависимости от выбранного вами варианта).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="how-we-work__cta">
+                    <button class="btn btn--primary btn--large modal-trigger" data-modal="callbackModal">Вызвать мастера</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <!-- <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Фотографии наших работ</h2>
+                <div class="gallery__grid">
+                    <div class="gallery-item"><img src="images/tild6132-6163-4734-b536-663962636135____-_5.jpg" alt="Ремонт проводки"></div>
+                    <div class="gallery-item"><img src="images/tild6562-6665-4439-a633-303866313732____-1.jpg" alt="Диагностика автоэлектрики"></div>
+                    <div class="gallery-item"><img src="images/tild3066-6537-4464-b236-616634333565____-2.jpg" alt="Замена предохранителей"></div>
+                    <div class="gallery-item"><img src="images/tild6334-6630-4232-b236-666363623836____-3.jpg" alt="Запуск двигателя"></div>
+                    <div class="gallery-item"><img src="images/tild3536-3565-4461-b038-303539383534____-4.jpg" alt="Ремонт сигнализации"></div>
+                    <div class="gallery-item"><img src="images/tild6335-3763-4166-b737-363036356339____-7.jpg" alt="Помощь на дороге"></div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Video Gallery Section -->
+        <section class="video-gallery">
+            <div class="container">
+                <h2 class="section-title">Посмотрите как работают наши мастера</h2>
+                <div class="video-grid">
+                    <div class="video-card" data-vk-id="352604861_456239140">
+                        <div class="video-card__preview">
+                            <img src="img/screen-4.png" alt="Диагностика автоэлектрики">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="video-card" data-vk-id="352604861_456239186">
+                        <div class="video-card__preview">
+                            <img src="img/screen-3.png" alt="Ремонт автоэлектрики">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="video-card" data-vk-id="352604861_456239138">
+                        <div class="video-card__preview">
+                            <img src="img/screen-2.png" alt="Ремонт проводки">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="video-card" data-vk-id="352604861_456239110">
+                        <div class="video-card__preview">
+                            <img src="img/screen-1.png" alt="Запуск двигателя">
+                            <div class="play-btn"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section (оставляем как есть) -->
+        <section id="reasons" class="why-us">
+            <div class="container">
+                <h2 class="section-title">Почему нам доверяют?</h2>
+                <div class="why-us__grid">
+                    <div class="reason-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>15 лет на рынке</h3>
+                        <p>Ремонтируем автоэлектрику любой сложности с 2010 года.</p>
+                    </div>
+                    <div class="reason-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Отличные отзывы</h3>
+                        <p>Гарантируем 100% результат, подтвержденный отзывами на Avito.</p>
+                    </div>
+                    <div class="reason-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Колоссальный опыт работы</h3>
+                        <p>Наши мастера постоянно повышают квалификацию и знают все тонкости автоэлектрики.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages Section -->
+        <section class="advantages">
+            <div class="container">
+                <h2 class="section-title">Наши преимущества</h2>
+                
+                <!-- Первый блок: текст слева, фото справа -->
+                <div class="advantages__row">
+                    <div class="advantages__content">
+                        <div class="advantage-item">
+                            <div class="advantage-item__icon"><i class="fas fa-truck"></i></div>
+                            <p>Вам не нужно везти технику в сервис, мастер приедет и починит ее там, где она встала.</p>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-item__icon"><i class="fas fa-boxes"></i></div>
+                            <p>Купим и привезем все необходимые для ремонта расходные материалы и запчасти.</p>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-item__icon"><i class="fas fa-credit-card"></i></div>
+                            <p>Различные варианты оплаты: НДС, без НДС, система быстрых платежей.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__image">
+                        <img src="img/fura-2.jpeg" alt="Ремонт грузового автомобиля">
+                    </div>
+                </div>
+                
+                <!-- Второй блок: фото слева, текст справа -->
+                <div class="advantages__row advantages__row--reverse">
+                    <div class="advantages__content">
+                        <div class="advantage-item">
+                            <div class="advantage-item__icon"><i class="fas fa-file-signature"></i></div>
+                            <p>Возможна работа по договору с полным пакетом закрывающих документов.</p>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-item__icon"><i class="fas fa-medal"></i></div>
+                            <p>Гарантия на выполненные работы.</p>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-item__icon"><i class="fas fa-microchip"></i></div>
+                            <p>Решаем нестандартные задачи, в том числе создание индивидуальной проводки.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__image">
+                        <img src="img/porter.png" alt="Ремонт легкового автомобиля">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section (from old site) -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы наших клиентов</h2>
+                <div class="why-us__review-link">
+                    <a href="https://www.avito.ru/chelyabinsk/predlozheniya_uslug/avtoelektrik_s_vyezdom_ot_a_do_ya_lyuboe_avto_1782421014" target="_blank" class="btn btn--outline">Смотреть отзывы на Avito <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="reviews__grid">
+                    <div class="review-card">
+                        <div class="review-card__text">"Отличный сервис! Приехали быстро, диагностировали проблему с проводкой, все починили на месте. Спасибо мастеру!"</div>
+                        <div class="review-card__author">— Алексей, Челябинск</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-card__text">"Машина не заводилась, сигнализация заблокировала двигатель. Специалист приехал через 40 минут, быстро отключил блокировку. Рекомендую!"</div>
+                        <div class="review-card__author">— Екатерина, Копейск</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-card__text">"Спасибо за помощь на дороге! Сел аккумулятор в центре города. Прикурили за 15 минут, плюс дали ценные советы. Профессионалы."</div>
+                        <div class="review-card__author">— Дмитрий, Челябинск</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Form Section -->
+        <section id="contact" class="cta-form">
+            <div class="container">
+                <div class="cta-form__content">
+                    <h2>Приедем, починим, запустим!</h2>
+                    <p>Позвоните нам на телефон или оставьте заявку, мы свяжемся с вами в ближайшее время.</p>
+                    <form id="mainForm" class="form">
+                        <div class="form__group">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--large">Отправить заявку</button>
+                        <p class="form__policy">Нажимая кнопку «Отправить» вы соглашаетесь с <a href="#" id="policyLink">Политикой конфиденциальности</a> компании.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col">
+                <img src="img/logo2.png" alt="Логотип" class="footer__logo">
+                <p>ООО "МАШИНОИМПУЛЬС"<br>ИНН 7453358358, КПП 745301001</p>
+                <p>© 2025 МашиноИмпульс. Все права защищены.</p>
+            </div>
+            <div class="footer__col">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+79511192171">+7 (951) 119-21-71</a></p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+79193050516">+7 (919) 305-05-16</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:office@maimp.ru">office@maimp.ru</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Челябинск, Свободы 2, к5</p>
+            </div>
+            <div class="footer__col">
+                <h4>Режим работы</h4>
+                <p>Ежедневно: 09:00 - 21:00</p>
+                <p>Выезд по городу и области</p>
+                <a href="https://wa.me/79511192171" target="_blank" class="footer__social"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__legal">
+                <p>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАШИНОИМПУЛЬС", ИНН 7453358358, КПП 745301001, Р/С 40702810810001572723</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Callback -->
+    <div id="callbackModal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h2>Оставить заявку на обратный звонок</h2>
+            <form id="modalForm" class="form form--vertical">
+                <div class="form__group">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form__group">
+                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form__group">
+                    <textarea name="message" rows="3" placeholder="Опишите проблему (необязательно)"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal video-modal">
+        <div class="modal__content video-modal__content">
+            <span class="modal__close">&times;</span>
+            <div class="video-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
