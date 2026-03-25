@@ -107,7 +107,7 @@
                         <p>Запуск двигателя при разряженном аккумуляторе (прикуривание) с соблюдением всех правил безопасности.</p>
                     </div>
                     <div class="service-card">
-                        <div class="service-card__icon"><i class="fas fa-fuse"></i></div>
+                        <div class="service-card__icon"><i class="fas fa-bolt"></i></div>
                         <h3>Замена предохранителей</h3>
                         <p>Диагностика и замена перегоревших предохранителей, восстановление работоспособности электроцепей.</p>
                     </div>
@@ -115,6 +115,31 @@
                         <div class="service-card__icon"><i class="fas fa-chart-line"></i></div>
                         <h3>Электронная диагностика</h3>
                         <p>Профессиональная компьютерная диагностика всех электронных систем автомобиля.</p>
+                    </div>
+                </div>
+                <!-- Additional: выезд автомеханика -->
+                <div class="mechanic-callout">
+                    <div class="mechanic-callout__content">
+                        <div class="mechanic-callout__icon">
+                            <i class="fas fa-wrench"></i>
+                            <i class="fas fa-truck-moving"></i>
+                        </div>
+                        <div class="mechanic-callout__text">
+                            <h3>Выезд автомеханика</h3>
+                            <p>Не уверены, что проблема в электрике? Нужна комплексная диагностика? Наши механики проведут полную проверку автомобиля на месте.</p>
+                            <ul class="mechanic-callout__list">
+                                <li><i class="fas fa-check-circle"></i> Диагностика ходовой части</li>
+                                <li><i class="fas fa-check-circle"></i> Проверка двигателя и трансмиссии</li>
+                                <li><i class="fas fa-check-circle"></i> Ремонт механических неисправностей</li>
+                                <li><i class="fas fa-check-circle"></i> Комплексный подход к ремонту</li>
+                            </ul>
+                        </div>
+                        <div class="mechanic-callout__action">
+                            <button class="btn btn--secondary btn--large mechanic-trigger" data-modal="mechanicModal">
+                                <i class="fas fa-tools"></i> Вызвать автомеханика
+                            </button>
+                            <p class="mechanic-callout__note">* Выезд по Челябинску и области</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -394,6 +419,34 @@
         <div class="modal__content video-modal__content">
             <span class="modal__close">&times;</span>
             <div class="video-container"></div>
+        </div>
+    </div>
+    <!-- Modal for Mechanic -->
+    <div id="mechanicModal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <div class="modal__icon">
+                <i class="fas fa-truck-moving"></i>
+                <i class="fas fa-wrench"></i>
+            </div>
+            <h2>Вызов автомеханика на выезд</h2>
+            <p class="modal__subtitle">Оставьте заявку, и наш механик прибудет к вам в ближайшее время</p>
+            <form id="mechanicForm" class="form form--vertical">
+                <div class="form__group">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form__group">
+                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form__group">
+                    <input type="text" name="car" placeholder="Марка и модель автомобиля">
+                </div>
+                <div class="form__group">
+                    <textarea name="problem" rows="3" placeholder="Опишите проблему (необязательно)"></textarea>
+                </div>
+                <button type="submit" class="btn btn--secondary btn--large">Вызвать механика</button>
+                <p class="form__policy">Нажимая кнопку, вы соглашаетесь с <a href="#" id="policyLink2">Политикой конфиденциальности</a></p>
+            </form>
         </div>
     </div>
 
