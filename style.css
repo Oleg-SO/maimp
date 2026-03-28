@@ -136,7 +136,7 @@ a {
 
 .header__phone {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .mobile-menu-btn {
@@ -718,7 +718,7 @@ a {
 
 @media (max-width: 768px) {
     .header__actions {
-        display: none;
+        display: contents;
     }
     .mobile-menu-btn {
         display: flex;
@@ -757,6 +757,11 @@ a {
     }
     .steps {
         flex-direction: column;
+    }
+}
+@media (max-width: 420px) {
+    .header__actions {
+        display: none;
     }
 }
 /* Advantages Section */
@@ -1072,4 +1077,21 @@ a {
     .mechanic-callout__text h3 {
         font-size: 1.4rem;
     }
+}
+
+.btn--max {
+    background: linear-gradient(135deg, #2b3b8c 0%, #1a2a6c 100%);
+    color: white;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(43, 59, 140, 0.3);
+}
+
+.btn--max:hover {
+    background: linear-gradient(135deg, #3a4e9e 0%, #2a3a7e 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(43, 59, 140, 0.4);
+}
+
+.btn--max i {
+    font-size: 1.1rem;
 }

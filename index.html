@@ -58,7 +58,9 @@
                     <p class="hero__text">Решаем быстро проблемы с электрикой автомобилей в Челябинске и области. Диагностика, ремонт, запуск.</p>
                     <div class="hero__buttons">
                         <button class="btn btn--primary btn--large modal-trigger" data-modal="callbackModal">Вызвать мастера</button>
-                        <a href="https://wa.me/79511192171" target="_blank" class="btn btn--whatsapp btn--large"><i class="fab fa-whatsapp"></i> Написать в WhatsApp</a>
+                        <a href="https://max.ru/ваш_id" target="_blank" rel="noopener" class="btn btn--max btn--large">
+                            <i class="fas fa-comment-dots"></i> Написать в MAX
+                        </a>
                     </div>
                     <div class="hero__info">
                         <span>Работаем по Челябинску и области</span>
@@ -198,22 +200,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Photo Gallery Section -->
-        <!-- <section id="gallery" class="gallery">
-            <div class="container">
-                <h2 class="section-title">Фотографии наших работ</h2>
-                <div class="gallery__grid">
-                    <div class="gallery-item"><img src="images/tild6132-6163-4734-b536-663962636135____-_5.jpg" alt="Ремонт проводки"></div>
-                    <div class="gallery-item"><img src="images/tild6562-6665-4439-a633-303866313732____-1.jpg" alt="Диагностика автоэлектрики"></div>
-                    <div class="gallery-item"><img src="images/tild3066-6537-4464-b236-616634333565____-2.jpg" alt="Замена предохранителей"></div>
-                    <div class="gallery-item"><img src="images/tild6334-6630-4232-b236-666363623836____-3.jpg" alt="Запуск двигателя"></div>
-                    <div class="gallery-item"><img src="images/tild3536-3565-4461-b038-303539383534____-4.jpg" alt="Ремонт сигнализации"></div>
-                    <div class="gallery-item"><img src="images/tild6335-3763-4166-b737-363036356339____-7.jpg" alt="Помощь на дороге"></div>
-                </div>
-            </div>
-        </section> -->
-
         <!-- Video Gallery Section -->
         <section class="video-gallery">
             <div class="container">
@@ -351,6 +337,7 @@
                     <h2>Приедем, починим, запустим!</h2>
                     <p>Позвоните нам на телефон или оставьте заявку, мы свяжемся с вами в ближайшее время.</p>
                     <form id="mainForm" class="form">
+                        <input type="hidden" name="form_type" value="electric">
                         <div class="form__group">
                             <input type="text" name="name" placeholder="Ваше имя" required>
                         </div>
@@ -408,6 +395,7 @@
             <span class="modal__close">&times;</span>
             <h2>Оставить заявку на обратный звонок</h2>
             <form id="modalForm" class="form form--vertical">
+                <input type="hidden" name="form_type" value="electric">
                 <div class="form__group">
                     <input type="text" name="name" placeholder="Ваше имя" required>
                 </div>
@@ -440,6 +428,7 @@
             <h2>Вызов автомеханика на выезд</h2>
             <p class="modal__subtitle">Оставьте заявку, и наш механик прибудет к вам в ближайшее время</p>
             <form id="mechanicForm" class="form form--vertical">
+                <input type="hidden" name="form_type" value="mechanic">
                 <div class="form__group">
                     <input type="text" name="name" placeholder="Ваше имя" required>
                 </div>
